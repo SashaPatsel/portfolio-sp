@@ -1,4 +1,6 @@
 import React, {Component} from "react";
+import Card from "../components/Card"
+
 const cards = {
   "3": {
     backgroundImage: 'url("assets/images/bamazon-demo.gif")'
@@ -92,7 +94,7 @@ const Portfolio = (props) => (
       One of my favorite things to work on is designing original code drills. They are at once created to accompany the curriculum of
       the
   <a href="https://www.trilogyed.com/">Trilogy</a> full-stack sotware engineering curriculum, and at the same as a resource for software engineers in training
-              to enhance and pracitce their skills.
+              to enhance and pracitce their skills. These code drills are used netion-wide as a part of Trilogy's Full-Stack software engineering program.
   </p>
 
     <p>
