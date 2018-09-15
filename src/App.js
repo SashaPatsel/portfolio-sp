@@ -103,20 +103,20 @@ class App extends Component {
 
                 <ul>
                   <li>
-                    <img className="jumbotron__stack-details--logo" src="assets/images/html-logo.png" /> HTML
+                    <img className="jumbotron__stack-details--logo" src="https://cdn0.iconfinder.com/data/icons/HTML5/512/HTML_Logo.png" /> HTML
             </li>
                   <li>
-                    <img className="jumbotron__stack-details--logo" src="assets/images/css-logo.png" />CSS</li>
+                    <img className="jumbotron__stack-details--logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/2000px-CSS.3.svg.png" />CSS</li>
                   <li>
-                    <img className="jumbotron__stack-details--logo" src="assets/images/sass-logo.png" />sass</li>
+                    <img className="jumbotron__stack-details--logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/2000px-Sass_Logo_Color.svg.png" />sass</li>
                   <li>
-                    <img className="jumbotron__stack-details--logo" src="assets/images/js-logo.png" />Javascript</li>
+                    <img className="jumbotron__stack-details--logo" src="https://quintagroup.com/cms/js/js-image/javascript-logo.png/image_preview" />Javascript</li>
                   <li>
-                    <img className="jumbotron__stack-details--logo" src="assets/images/react-logo.png" />react</li>
+                    <img className="jumbotron__stack-details--logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2000px-React-icon.svg.png" />react</li>
                   <li>
-                    <img className="jumbotron__stack-details--logo" src="assets/images/jquery-logo.gif" />JQuery</li>
+                    <img className="jumbotron__stack-details--logo" src="http://pluspng.com/img-png/jquery-logo-png-jquery-320.png" />JQuery</li>
                   <li>
-                    <img className="jumbotron__stack-details--logo" src="assets/images/firebase-logo.png" />Firebase</li>
+                    <img className="jumbotron__stack-details--logo" src="http://www.stickpng.com/assets/images/5847f40ecef1014c0b5e488a.png" />Firebase</li>
                 </ul>
               </div>
             </div>
@@ -130,20 +130,24 @@ class App extends Component {
 
                 <ul>
                   <li>
-                    <img className="jumbotron__stack-details--logo" src="assets/images/node-logo.png" /> Node
+                    <img className="jumbotron__stack-details--logo" src="https://cdn2.iconfinder.com/data/icons/nodejs-1/512/nodejs-512.png" /> Node
             </li>
+            <li>
+                    <img className="jumbotron__stack-details--logo" src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" /> Node
+            </li>
+            
                   <li>
-                    <img className="jumbotron__stack-details--logo" src="assets/images/mysql-logo.png" />mysql</li>
+                    <img className="jumbotron__stack-details--logo" src="http://www.pngall.com/wp-content/uploads/2016/05/MySQL-Logo.png" />mysql</li>
                   <li>
-                    <img className="jumbotron__stack-details--logo" src="assets/images/sequelize-logo.png" />sequelize</li>
+                    <img className="jumbotron__stack-details--logo" src="https://cdn.freebiesupply.com/logos/large/2x/sequelize-logo-png-transparent.png" />sequelize</li>
                   <li>
-                    <img className="jumbotron__stack-details--logo" src="assets/images/mongo-logo.png" />mongo</li>
+                    <img className="jumbotron__stack-details--logo" src="https://static1.squarespace.com/static/513914cde4b0f86e34bbb954/t/58d2c758725e25221a20ed53/1490208601230/mongodb-logo.png" />mongo</li>
                   <li>
-                    <img className="jumbotron__stack-details--logo" src="assets/images/mongoose-logo.png" />mongoose</li>
+                    <img className="jumbotron__stack-details--logo" src="https://nesoy.github.io/assets/posts/20170602/1.PNG" />mongoose</li>
                   <li>
-                    <img className="jumbotron__stack-details--logo" src="assets/images/passport-logo.png" />passport</li>
+                    <img className="jumbotron__stack-details--logo" src="https://cdn.glitch.com/project-avatar/0d184ee3-fd8d-4b94-acf4-b4e686e57375.png" />passport</li>
                   <li>
-                    <img className="jumbotron__stack-details--logo" src="assets/images/handlebars-logo.png" />handlebars</li>
+                    <img className="jumbotron__stack-details--logo" src="https://i0.wp.com/blog.fossasia.org/wp-content/uploads/2017/07/handlebars-js.png?resize=500%2C500&ssl=1" />handlebars</li>
                 </ul>
               </div>
 
@@ -532,21 +536,21 @@ class App extends Component {
               <div className="col-1-of-4">
                 <div className="footer__links-item">
                   <a href="https://github.com/SashaPatsel" target="_blank">
-                    <img className="footer__img" src="assets/images/github.png" alt="codepenlink" />
+                    <img className="footer__img" src="https://png.icons8.com/metro/1600/github.png" alt="codepenlink" />
                   </a>
                 </div>
               </div>
               <div className="col-1-of-4">
                 <div className="footer__links-item">
                   <a href="https://www.linkedin.com/in/sasha-patsel-064aab132/" target="_blank">
-                    <img className="footer__img" src="assets/images/linkedin.png" alt="codepenlink" />
+                    <img className="footer__img" src="https://www.scylf.com.au/wp-content/uploads/2018/04/linkedin-logo.png" alt="codepenlink" />
                   </a>
                 </div>
               </div>
               <div className="col-1-of-4">
                 <div className="footer__links-item">
                   <a href="https://codepen.io/SPeight/" target="_blank">
-                    <img className="footer__img" src="assets/images/codepen.png" alt="codepenlink" />
+                    <img className="footer__img" src="http://blog.codepen.io/wp-content/uploads/2012/06/Button-Fill-Black-Large.png" alt="codepenlink" />
                   </a>
                 </div>
               </div>
