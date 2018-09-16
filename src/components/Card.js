@@ -3,7 +3,7 @@ import React, {Component} from "react"
 const Card = (props, children) => (
 <div className="card">
         <div className="card__side card__side--front">
-          <div className="card__picture" style={props.backGroundImg}>
+          <div className="card__picture" style={props.backgroundImg}>
 
             &nbsp;
     </div>
@@ -13,9 +13,11 @@ const Card = (props, children) => (
           <div className="card__about">
             <h5 className="card__about--name">{props.heading}</h5>
 
-            {props.description}
+            
 
-            <p className="card__about--desc"></p>
+            <p className="card__about--desc">{props.desc1}</p>
+            <p className="card__about--desc">{props.desc2}</p>
+            <p className="card__about--desc">{props.desc3}</p>
           </div>
 
         </div>
