@@ -174,7 +174,8 @@ body {
     padding: 2rem; }
     .card__about--name {
       font-size: 2.5rem;
-      text-align: center; }
+      text-align: center;
+      text-transform: uppercase; }
     .card__about--desc {
       font-size: 1.4rem !important;
       color: black !important; }
@@ -242,7 +243,7 @@ body {
       font-size: 1.8rem;
       text-transform: uppercase;
       letter-spacing: .8rem;
-      margin: 1rem 0; }
+      margin: 5rem 0; }
   .jumbotron__stack-container {
     width: 70%;
     margin: auto; }

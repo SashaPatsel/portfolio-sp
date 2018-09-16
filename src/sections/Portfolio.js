@@ -112,19 +112,18 @@ const Portfolio = (props) => (
         One of my favorite things to work on is designing original code drills. They are at once created to accompany the curriculum of
         the
   <a href="https://www.trilogyed.com/">Trilogy</a> full-stack sotware engineering curriculum, and at the same as a resource for software engineers in training
-                          to enhance and pracitce their skills. These code drills are used netion-wide as a part of Trilogy's Full-Stack software engineering program.
+                          to enhance and practice their skills. These code drills are used nation-wide as a part of Trilogy's Full-Stack software engineering program.
   </p>
-
+  <p>
+        People of all skill levels can find useful practice in these code drills. From those who have just started building static web-pages with HTML and CSS, to those looking to build full-stack apps, all can find exercises in these code drills to improve their skills.
+  </p>
       <p>
 
-        These code drills contain a mixture of algorithms and project-based exercises. They are designed to both refine one's thinking
-        as an engineer, and to add to one's portfolio. You can use the algorithms within to pracitce for your next interview,
+        They contain a mixture of algorithms and project-based exercises. You can use the algorithms within to practice for your next interview,
         or make projects you can add to your own portfolio. Projects include, but are not limited to:
   </p>
 
-      <p>
-        People of all skill levels can find useful practice in these code drills. From those who have just started building static web-pages with HTML and CSS, to those looking to build full-stack apps, all can find exercises in these code drills to improve their skills.
-  </p>
+
 
       <ul>
         <li>
@@ -158,7 +157,7 @@ const Portfolio = (props) => (
       <div className="col-1-of-2">
         <Card
           backgroundImg={cards["11"]}
-
+          heading={"rate-a-restaurant app"}
           desc1={"Rate-a-restaurant is about learning how to create a full-stack app with a node-mysql backend and a jquery front-end. The basics of RESTful routing are covered as well. Rate-a-restaurant is great practice for CRUD operatons! "}
           desc2={"Rate-a-restaurant allows a user to input a restaurant of their choice, which is then saved in a database. The user can then update the ratings of the restaurant, which are also stored and maintained."}
           github={"https://github.com/SashaPatsel/coding-drills/tree/master/express/rate-a-restaurant"}
@@ -182,7 +181,7 @@ const Portfolio = (props) => (
 
       <Card
           backgroundImg={cards["12"]}
-
+          heading={"Pass The O.W.L.s"}
           desc1={"Hogwarts is a great way to learn the fundamentals of express. Students learn to use API routes to keep track of user interactions with the application"}
           desc2={"In the Hogwarts app, students enter information for a new student, and then click on skills for the students to aquire on their way to graduating."}
           github={"https://github.com/SashaPatsel/coding-drills/tree/master/express/hogwarts"}
@@ -198,55 +197,7 @@ const Portfolio = (props) => (
                   <img className="card__details--logo" src={stack.jquery} />jquery</li>
 
         </Card>
-        {/* <div className="card">
-          <div className="card__side card__side--front">
-            <div className="card__picture" style={cards["12"]}>
-              &nbsp;
-    </div>
 
-
-
-            <div className="card__about">
-              <h5 className="card__about--name">Hogwarts</h5>
-
-              <p className="card__about--desc">Hogwarts is a great way to learn the fundamentals of express. Students learn to use API routes to keep track of user interactions with the application</p>
-
-              <p className="card__about--desc">
-                In the Hogwarts app, students enter information for a new student, and then "take them to classNamees" on their way to graduating.
-      </p>
-            </div>
-
-          </div>
-          <div className="card__side card__side--back card__side--back-1">
-            <div className="card__details">
-              <h5 className="card__details--stack">Stack</h5>
-
-              <ul>
-                <li>
-                  <img className="card__details--logo" src="assets/images/node-logo.png" />Node</li>
-                <li>
-                  <img className="card__details--logo" src="assets/images/express-logo.png" />Express</li>
-
-
-                <li>
-                  <img className="card__details--logo" src="assets/images/jquery-logo.gif" />jquery</li>
-
-              </ul>
-
-              <div className="card__details--icon-gh">
-                <a href="https://github.com/SashaPatsel/coding-drills/tree/master/express/hogwarts" target="_blank">
-                  <img className="card__details--icon-img" src="assets/images/github.png" alt="codepenlink" />
-                </a>
-              </div>
-
-              <div className="card__details--icon-hr">
-                <a href="https://hogwarts-415.herokuapp.com/" target="_blank">
-                  <i className="fas fa-globe"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div> */}
       </div>
 
     </div>
@@ -257,7 +208,25 @@ const Portfolio = (props) => (
     <div className="row">
 
       <div className="col-1-of-3">
-        <div className="card">
+      <Card
+          backgroundImg={cards["4"]}
+          heading={"Pacifica.com"}
+          desc1={"Pacifica.com is a showcase in CSS and SASS."}
+          desc2={"The webpage is built exclusively with HTML and SASS in order to demonstate what can be done with CSS alone."}
+          github={"https://github.com/SashaPatsel/pacifica.com"}
+          deployed={"https://sashapatsel.github.io/pacifica.com/"}
+        >
+                  <li>
+                  <img className="card__details--logo" src={stack.sass} />SASS</li>
+                <li>
+                  <img className="card__details--logo" src={stack.html}/>HTML</li>
+
+
+               
+
+        </Card>
+
+        {/* <div className="card">
           <div className="card__side card__side--front">
             <div className="card__picture" style={cards["4"]}>
               &nbsp;
@@ -296,7 +265,7 @@ const Portfolio = (props) => (
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
       </div>
 
