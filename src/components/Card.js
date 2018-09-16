@@ -31,7 +31,7 @@ const Card = (props, children) => (
 
             <div className="card__details--icon-gh">
               <a href={props.github}target="_blank">
-                <img className="card__details--icon-img" src="assets/images/github.png" alt="codepenlink" />
+                <img className="card__details--icon-img" src="https://png.icons8.com/metro/1600/github.png" alt="codepenlink" />
               </a>
             </div>
 

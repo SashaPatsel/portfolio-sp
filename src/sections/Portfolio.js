@@ -36,7 +36,6 @@ const stack = {
   mongoose: "https://nesoy.github.io/assets/posts/20170602/1.PNG",
   passport: "https://cdn.glitch.com/project-avatar/0d184ee3-fd8d-4b94-acf4-b4e686e57375.png",
   handlebars: "https://i0.wp.com/blog.fossasia.org/wp-content/uploads/2017/07/handlebars-js.png?resize=500%2C500&ssl=1"
-
 }
 console.log(stack)
 const Portfolio = (props) => (
@@ -166,21 +165,40 @@ const Portfolio = (props) => (
           deployed={"https://rate-a-restaurant-app.herokuapp.com/"}
         >
           <li>
-            <img className="card__details--logo" src="assets/images/mysql-logo.png" /> mysql
+            <img className="card__details--logo" src={stack.mysql} /> mysql
         </li>
           <li>
-            <img className="card__details--logo" src="assets/images/express-logo.png" />Express</li>
+            <img className="card__details--logo" src={stack.express} />Express</li>
           <li>
-            <img className="card__details--logo" src="assets/images/jquery-logo.gif" />jquery</li>
+            <img className="card__details--logo" src={stack.jquery} />jquery</li>
           <li>
-            <img className="card__details--logo" src="assets/images/node-logo.png" />Node</li>
+            <img className="card__details--logo" src={stack.node} />Node</li>
 
         </Card>
       </div>
 
 
       <div className="col-1-of-2">
-        <div className="card">
+
+      <Card
+          backgroundImg={cards["12"]}
+
+          desc1={"Hogwarts is a great way to learn the fundamentals of express. Students learn to use API routes to keep track of user interactions with the application"}
+          desc2={"In the Hogwarts app, students enter information for a new student, and then click on skills for the students to aquire on their way to graduating."}
+          github={"https://github.com/SashaPatsel/coding-drills/tree/master/express/hogwarts"}
+          deployed={"https://hogwarts-415.herokuapp.com/"}
+        >
+                  <li>
+                  <img className="card__details--logo" src={stack.node} />Node</li>
+                <li>
+                  <img className="card__details--logo" src={stack.express}/>Express</li>
+
+
+                <li>
+                  <img className="card__details--logo" src={stack.jquery} />jquery</li>
+
+        </Card>
+        {/* <div className="card">
           <div className="card__side card__side--front">
             <div className="card__picture" style={cards["12"]}>
               &nbsp;
@@ -228,7 +246,7 @@ const Portfolio = (props) => (
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
 
     </div>
