@@ -33,15 +33,16 @@ const About = (props) => (
           <p>
             Since joining the teaching staff, my responsibilites have expanded. I currently tutor in one-on-one sessions, lead breakouts
             on specific topics, guide students as they work through challenging engineering problems, advise on best-practices
-            and develop
+            and develop&nbsp;
         <a href="https://github.com/SashaPatsel/coding-drills" target="_blank">orginal coding exercises</a> designed to enhance students abilities.
         </p>
 
           <p>
             As a software engineer, I like to think of myself as a Swiss Army Knife. My time teaching others to code has had an enormous
             impact on my own abilities, as I've found helping others learn concepts is often the best way to truly understand
-            them. Having to constantly go back to review and teach different topics always keeps me on my toes.
+            them. Having to constantly go back to review and teach different topics always keeps me on my toes. 
         </p>
+
 
           <p className="about__blrb--sig">- Sasha Patsel</p>
 

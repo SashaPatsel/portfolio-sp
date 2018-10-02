@@ -291,7 +291,7 @@ body {
       letter-spacing: 1.3px;
       margin-bottom: 2rem; }
     .jumbotron-cd a {
-      color: #d87314;
+      color: #35d814;
       cursor: pointer;
       text-decoration: none; }
       .jumbotron-cd a:hover {
@@ -404,7 +404,7 @@ body {
     .about__blrb p:not(:last-child) {
       margin-bottom: 4rem; }
     .about__blrb a {
-      color: #d87314;
+      color: #35d814;
       cursor: pointer;
       text-decoration: none; }
       .about__blrb a:hover {

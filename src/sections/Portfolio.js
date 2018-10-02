@@ -111,7 +111,7 @@ const Portfolio = (props) => (
       <p>
         One of my favorite things to work on is designing original code drills. They are at once created to accompany the curriculum of
         the
-  <a href="https://www.trilogyed.com/">Trilogy</a> full-stack sotware engineering curriculum, and at the same as a resource for software engineers in training
+        &nbsp;<a target="_blank" href="https://www.trilogyed.com/">Trilogy</a> full-stack sotware engineering curriculum, and at the same as a resource for software engineers in training
                           to enhance and practice their skills. These code drills are used nation-wide as a part of Trilogy's Full-Stack software engineering program.
   </p>
   <p>
@@ -127,22 +127,22 @@ const Portfolio = (props) => (
 
       <ul>
         <li>
-          <a href="https://github.com/SashaPatsel/coding-drills/tree/master/ajax/yelp">
+          <a target="_blank" href="https://github.com/SashaPatsel/coding-drills/tree/master/ajax/yelp">
             An original yelp search engine
   </a>
         </li>
         <li>
-          <a href="https://github.com/SashaPatsel/coding-drills/tree/master/node/zombie-game/01">
+          <a target="_blank" href="https://github.com/SashaPatsel/coding-drills/tree/master/node/zombie-game/01">
             A command line zombie game
   </a>
         </li>
         <li>
-          <a href="https://github.com/SashaPatsel/coding-drills/tree/master/MySQL">
+          <a target="_blank" href="https://github.com/SashaPatsel/coding-drills/tree/master/MySQL">
             An interactive TV show database
   </a>
         </li>
         <li>
-          <a href="https://github.com/SashaPatsel/coding-drills">
+          <a target="_blank" href="https://github.com/SashaPatsel/coding-drills">
             and many more...
   </a>
         </li>
