@@ -359,7 +359,7 @@ body {
   height: 30rem;
   width: 30rem;
   background-image: url("/assets/images/hangman.png");
-  filter: grayscale(100%);
+  filter: grayscale(90%);
   background-size: cover;
   background-position: 35%;
   border-radius: 1rem;

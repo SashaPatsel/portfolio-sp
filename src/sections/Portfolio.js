@@ -209,118 +209,16 @@ const Portfolio = (props) => (
     <div className="row">
 
       <div className="col-1-of-3">
-        <Card
-          backgroundImg={cards["4"]}
-          heading={"Pacifica.com"}
-          desc1={"Pacifica.com is a showcase in CSS and SASS."}
-          desc2={"The webpage is built exclusively with HTML and SASS in order to demonstate what can be done with CSS alone."}
-          github={"https://github.com/SashaPatsel/pacifica.com"}
-          deployed={"https://sashapatsel.github.io/pacifica.com/"}
-        >
-          <li>
-            <img className="card__details--logo" src={stack.sass} />SASS</li>
-          <li>
-            <img className="card__details--logo" src={stack.html} />HTML</li>
-
-
-
-
-        </Card>
-
-
+        <Project name="Hangman" github="https://github.com/SashaPatsel/Hangman-Game" deployed="https://sashapatsel.github.io/Hangman-Game/" />
       </div>
 
-      <div className="col-1-of-3">
-        <div className="card">
-          <div className="card__side card__side--front">
-            <div className="card__picture" style={cards["5"]}>
-              &nbsp;
-        </div>
-
-            <div className="card__about">
-              <h5 className="card__about--name">HQ Extension</h5>
-              <p className="card__about--desc">HQ is a destop app that acts as a homepage for users on their respective browsers.</p>
-              <p className="card__about--desc">Strongly inspired by the Chrome extension
-            <a href="https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?hl=en">Momentum</a>, HQ remembers your name, keeps a log of your personal journal entries, gives you the day's top
-            news stories, and tells you the time and weather.</p>
-            </div>
-
-          </div>
-          <div className="card__side card__side--back card__side--back-2">
-            <div className="card__details">
-              <h5 className="card__details--stack">Stack</h5>
-
-              <ul>
-                <li>
-                  <img className="card__details--logo" src="assets/images/html-logo.png" /> HTML
-            </li>
-                <li>
-                  <img className="card__details--logo" src="assets/images/css-logo.png" />CSS</li>
-                <li>
-                  <img className="card__details--logo" src="assets/images/jquery-logo.gif" />JQuery</li>
-                <li>
-                  <img className="card__details--logo" src="assets/images/firebase-logo.png" />Firebase</li>
-
-              </ul>
-              <div className="card__details--icon-gh">
-                <a href="https://github.com/SashaPatsel/seat-swap" target="_blank">
-                  <img className="card__details--icon-img" src="assets/images/github.png" alt="codepenlink" />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="col-1-of-3">
-        <div className="card">
-          <div className="card__side card__side--front">
-            <div style={cards[3]} className="card__picture">
-              &nbsp;
-            </div>
 
 
-            <div className="card__about">
-              <h5 className="card__about--name">Bamazon</h5>
-              <p className="card__about--desc">Bamazon is a shopping simulator run through the command line.</p>
-              <p className="card__about--desc">Bamazon allows you to interact with a MySQL database in real time! When you purchase a product, you can see
-        the toal cost of your purchase as well as the corresponding decline in Bamazon's inventory.</p>
-              <p className="card__about--desc">Bamazon includes shopper and manager modes.</p>
-            </div>
-          </div>
-          <div className="card__side card__side--back card__side--back-3">
-
-            <div className="card__details">
-              <h5 className="card__details--stack">Stack</h5>
-
-              <ul>
-                <li>
-                  <img className="card__details--logo" src="assets/images/node-logo.png" /> Node
-        </li>
-                <li>
-                  <img className="card__details--logo" src="assets/images/mysql-logo.png" />MySQL</li>
-              </ul>
-
-              <div className="card__details--icon-gh">
-                <a href="https://github.com/SashaPatsel/seat-swap" target="_blank">
-                  <img className="card__details--icon-img" src="assets/images/github.png" alt="github link" />
-                </a>
-              </div>
-
-
-
-
-            </div>
-          </div>
-        </div>
-      </div>
-      
     </div>
 
 
-<div style={{marginTop: "-70px", marginLeft: "800px"}}><Project name="Hangman"/></div>
 
-  
+
 
 
 
