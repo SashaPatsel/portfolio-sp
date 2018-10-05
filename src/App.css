@@ -355,23 +355,35 @@ body {
       .nav ul li:last-child {
         margin-left: 1rem; }
 
+.parallax {
+  background-image: linear-gradient(to right bottom, #541ba1, #ed9415), url("/assets/images/beach.jpeg");
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top;
+  background-blend-mode: screen;
+  position: fixed;
+  z-index: -2; }
+
 .project {
   height: 30rem;
   width: 30rem;
-  filter: grayscale(90%);
   background-size: cover;
   border-radius: 1rem;
+  border: 2px #ED9415 solid;
+  box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.4);
   position: relative;
   transition: .2s; }
-  .project:hover {
-    filter: grayscale(0); }
   .project:hover .project__links {
     background-color: rgba(84, 27, 161, 0.6); }
   .project__heading {
     background-color: rgba(84, 27, 161, 0.9);
     padding: 1rem;
     position: absolute;
-    width: 100%; }
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem; }
     .project__heading--title {
       font-size: 2rem;
       text-align: center;
@@ -381,6 +393,7 @@ body {
     position: absolute;
     bottom: 0;
     width: 100%;
+    background-color: rgba(84, 27, 161, 0.6);
     height: 25%; }
 
 .about {

@@ -153,7 +153,7 @@ const Portfolio = (props) => (
 
 
       <h4 className="jumbotron--heading">Student Projects</h4>
-      <h5 className="jumbotron--heading-sub">Here are some demos of full stack projects students completing these code drills will build.</h5>
+      <h5 className="jumbotron--heading-sub">Examples of projects students are guided through in these code drills.</h5>
 
       <div className="col-1-of-2">
         <Card

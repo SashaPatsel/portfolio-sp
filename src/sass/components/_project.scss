@@ -2,16 +2,18 @@
   height: 30rem;
   width: 30rem;
   // background-image: url("/assets/images/hangman.png");
-  filter: grayscale(90%);
+  // filter: grayscale(90%);
   background-size: cover;
   // background-position: 35%;
   border-radius: 1rem;
+  border: 2px $color-secondary solid;
+  box-shadow: 0 2rem 2rem rgba(0,0,0,.4);
   position: relative;
   transition: .2s;
 
-  &:hover {
-    filter: grayscale(0);
-  }
+  // &:hover {
+  //   filter: grayscale(0);
+  // }
 
   &:hover &__links {
     background-color: rgba($color-primary, .6);
@@ -23,6 +25,8 @@
     padding: 1rem;
     position: absolute;
     width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 
     &--title {
       font-size: 2rem;
@@ -35,6 +39,7 @@
     position: absolute;
     bottom: 0;
     width: 100%;
+    background-color: rgba($color-primary, .6);
     height: 25%;
   }
 

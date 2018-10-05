@@ -13,7 +13,7 @@ const About = (props) => (
 
           <p>
             I graduated from Clark University in 2017 with a Master's degree in Public Administration, where I led a team writing a comprehensive
-            report documenting evidence-based solutions to Worcester, MA's opiod epidemic. The project was commisioned by Worcester
+            report documenting evidence-based solutions to Worcester, MA's opioid epidemic. The project was commisioned by Worcester
             County District Attorney Joe Early.
         </p>
 
