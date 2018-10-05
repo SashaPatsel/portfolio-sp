@@ -358,15 +358,15 @@ body {
 .project {
   height: 30rem;
   width: 30rem;
-  background-image: url("/assets/images/hangman.png");
   filter: grayscale(90%);
   background-size: cover;
-  background-position: 35%;
   border-radius: 1rem;
   position: relative;
   transition: .2s; }
   .project:hover {
     filter: grayscale(0); }
+  .project:hover .project__links {
+    background-color: rgba(84, 27, 161, 0.6); }
   .project__heading {
     background-color: rgba(84, 27, 161, 0.9);
     padding: 1rem;
@@ -377,6 +377,11 @@ body {
       text-align: center;
       color: #ED9415;
       letter-spacing: 4px; }
+  .project__links {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 25%; }
 
 .about {
   padding: 15rem 0;

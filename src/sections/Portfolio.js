@@ -209,7 +209,24 @@ const Portfolio = (props) => (
     <div className="row">
 
       <div className="col-1-of-3">
-        <Project name="Hangman" github="https://github.com/SashaPatsel/Hangman-Game" deployed="https://sashapatsel.github.io/Hangman-Game/" />
+        <Project 
+        name="Hangman" 
+        img="url(/assets/images/hangman.png)"
+        github="https://github.com/SashaPatsel/Hangman-Game" deployed="https://sashapatsel.github.io/Hangman-Game/" />
+      </div>
+
+         <div className="col-1-of-3">
+        <Project 
+        name="Super Smash Bros" 
+        img="url(/assets/images/super-smash.png)"
+        github="https://github.com/SashaPatsel/super-smash-rpg" deployed="https://sashapatsel.github.io/super-smash-rpg/" />
+      </div>
+
+         <div className="col-1-of-3">
+        <Project
+         name="Pretty-Much-Netflix"
+         img="url(/assets/images/netflix.png)"
+         github="https://github.com/SashaPatsel/pretty-much-netflix" deployed="https://sashapatsel.github.io/pretty-much-netflix/" />
       </div>
 
 
