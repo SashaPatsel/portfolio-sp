@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Card from "../components/Card"
+import Project from "../components/Project"
 
 const cards = {
   "3": {
@@ -17,7 +18,7 @@ const cards = {
   "12": {
     backgroundImage: 'url("assets/images/hogwarts.png")'
   }
-  
+
 }
 
 const stack = {
@@ -32,12 +33,12 @@ const stack = {
   express: "https://rishabh.io/recipes/img/004-express-js.png",
   mysql: "http://www.pngall.com/wp-content/uploads/2016/05/MySQL-Logo.png",
   sequelize: "https://cdn.freebiesupply.com/logos/large/2x/sequelize-logo-png-transparent.png",
-  mongo: "https://static1.squarespace.com/static/513914cde4b0f86e34bbb954/t/58d2c758725e25221a20ed53/1490208601230/mongodb-logo.png" ,
+  mongo: "https://static1.squarespace.com/static/513914cde4b0f86e34bbb954/t/58d2c758725e25221a20ed53/1490208601230/mongodb-logo.png",
   mongoose: "https://nesoy.github.io/assets/posts/20170602/1.PNG",
   passport: "https://cdn.glitch.com/project-avatar/0d184ee3-fd8d-4b94-acf4-b4e686e57375.png",
   handlebars: "https://i0.wp.com/blog.fossasia.org/wp-content/uploads/2017/07/handlebars-js.png?resize=500%2C500&ssl=1"
 }
-console.log(stack)
+
 const Portfolio = (props) => (
   <section className="portfolio" id="portfolio">
     <h3 className="portfolio__heading">My Stack</h3>
@@ -62,7 +63,7 @@ const Portfolio = (props) => (
             <li>
               <img className="jumbotron__stack-details--logo" src={stack.react} />react</li>
             <li>
-              <img className="jumbotron__stack-details--logo" src={stack.jquery}/>JQuery</li>
+              <img className="jumbotron__stack-details--logo" src={stack.jquery} />JQuery</li>
             <li>
               <img className="jumbotron__stack-details--logo" src={stack.firebase} />Firebase</li>
           </ul>
@@ -85,11 +86,11 @@ const Portfolio = (props) => (
     </li>
 
             <li>
-              <img className="jumbotron__stack-details--logo" src={stack.mysql}/>mysql</li>
+              <img className="jumbotron__stack-details--logo" src={stack.mysql} />mysql</li>
             <li>
               <img className="jumbotron__stack-details--logo" src={stack.sequelize} />sequelize</li>
             <li>
-              <img className="jumbotron__stack-details--logo" src={stack.mongo}/>mongo</li>
+              <img className="jumbotron__stack-details--logo" src={stack.mongo} />mongo</li>
             <li>
               <img className="jumbotron__stack-details--logo" src={stack.mongoose} />mongoose</li>
             <li>
@@ -114,7 +115,7 @@ const Portfolio = (props) => (
         &nbsp;<a target="_blank" href="https://www.trilogyed.com/">Trilogy</a> full-stack sotware engineering curriculum, and at the same as a resource for software engineers in training
                           to enhance and practice their skills. These code drills are used nation-wide as a part of Trilogy's Full-Stack software engineering program.
   </p>
-  <p>
+      <p>
         People of all skill levels can find useful practice in these code drills. From those who have just started building static web-pages with HTML and CSS, to those looking to build full-stack apps, all can find exercises in these code drills to improve their skills.
   </p>
       <p>
@@ -179,7 +180,7 @@ const Portfolio = (props) => (
 
       <div className="col-1-of-2">
 
-      <Card
+        <Card
           backgroundImg={cards["12"]}
           heading={"Pass The O.W.L.s"}
           desc1={"Hogwarts is a great way to learn the fundamentals of express. Students learn to use API routes to keep track of user interactions with the application"}
@@ -187,14 +188,14 @@ const Portfolio = (props) => (
           github={"https://github.com/SashaPatsel/coding-drills/tree/master/express/hogwarts"}
           deployed={"https://hogwarts-415.herokuapp.com/"}
         >
-                  <li>
-                  <img className="card__details--logo" src={stack.node} />Node</li>
-                <li>
-                  <img className="card__details--logo" src={stack.express}/>Express</li>
+          <li>
+            <img className="card__details--logo" src={stack.node} />Node</li>
+          <li>
+            <img className="card__details--logo" src={stack.express} />Express</li>
 
 
-                <li>
-                  <img className="card__details--logo" src={stack.jquery} />jquery</li>
+          <li>
+            <img className="card__details--logo" src={stack.jquery} />jquery</li>
 
         </Card>
 
@@ -208,7 +209,7 @@ const Portfolio = (props) => (
     <div className="row">
 
       <div className="col-1-of-3">
-      <Card
+        <Card
           backgroundImg={cards["4"]}
           heading={"Pacifica.com"}
           desc1={"Pacifica.com is a showcase in CSS and SASS."}
@@ -216,56 +217,16 @@ const Portfolio = (props) => (
           github={"https://github.com/SashaPatsel/pacifica.com"}
           deployed={"https://sashapatsel.github.io/pacifica.com/"}
         >
-                  <li>
-                  <img className="card__details--logo" src={stack.sass} />SASS</li>
-                <li>
-                  <img className="card__details--logo" src={stack.html}/>HTML</li>
+          <li>
+            <img className="card__details--logo" src={stack.sass} />SASS</li>
+          <li>
+            <img className="card__details--logo" src={stack.html} />HTML</li>
 
 
-               
+
 
         </Card>
 
-        {/* <div className="card">
-          <div className="card__side card__side--front">
-            <div className="card__picture" style={cards["4"]}>
-              &nbsp;
-        </div>
-
-
-            <div className="card__about">
-              <h5 className="card__about--name">Pacifica.com</h5>
-              <p className="card__about--desc">Pacifica.com is a showcase in CSS and SASS.</p>
-              <p className="card__about--desc">The webpage is built exclusively with HTML and SASS in order to demonstate what can be done with CSS alone.</p>
-            </div>
-
-          </div>
-          <div className="card__side card__side--back card__side--back-1">
-            <div className="card__details">
-              <h5 className="card__details--stack">Stack</h5>
-
-
-              <ul>
-                <li>
-                  <img className="card__details--logo" src="assets/images/html-logo.png" /> HTML
-            </li>
-                <li>
-                  <img className="card__details--logo" src="assets/images/sass-logo.png" />SASS</li>
-              </ul>
-              <div className="card__details--icon-gh">
-                <a href="https://github.com/SashaPatsel/seat-swap" target="_blank">
-                  <img className="card__details--icon-img" src="assets/images/github.png" alt="codepenlink" />
-                </a>
-              </div>
-
-              <div className="card__details--icon-hr">
-                <a href="https://github.com/SashaPatsel/seat-swap" target="_blank">
-                  <i className="fas fa-globe"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div> */}
 
       </div>
 
@@ -316,7 +277,7 @@ const Portfolio = (props) => (
           <div className="card__side card__side--front">
             <div style={cards[3]} className="card__picture">
               &nbsp;
-    </div>
+            </div>
 
 
             <div className="card__about">
@@ -353,12 +314,13 @@ const Portfolio = (props) => (
           </div>
         </div>
       </div>
+      
     </div>
 
 
+<div style={{marginTop: "-70px", marginLeft: "800px"}}><Project name="Hangman"/></div>
 
-
-
+  
 
 
 

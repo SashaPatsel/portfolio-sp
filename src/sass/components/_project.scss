@@ -1,0 +1,31 @@
+.project {
+  height: 30rem;
+  width: 30rem;
+  background-image: url("/assets/images/hangman.png");
+  filter: grayscale(100%);
+  background-size: cover;
+  background-position: 35%;
+  border-radius: 1rem;
+  position: relative;
+  transition: .2s;
+
+  &:hover {
+    filter: grayscale(0);
+  }
+
+
+  &__heading {
+    background-color: rgba($color-primary, .9);
+    padding: 1rem;
+    position: absolute;
+    width: 100%;
+
+    &--title {
+      font-size: 2rem;
+      text-align: center;
+      color: $color-secondary;
+      letter-spacing: 4px;
+    }
+  }
+
+}
