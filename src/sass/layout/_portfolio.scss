@@ -32,6 +32,12 @@
 
     &-sub {
       font-size: 5rem;
+
+      &--desc {
+        font-size: 3.5rem;
+        font-style: italic;
+        display: block;
+      }
     }
 
   }

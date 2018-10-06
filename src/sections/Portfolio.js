@@ -205,6 +205,7 @@ const Portfolio = (props) => (
 
 
     <h4 className="portfolio__heading portfolio__heading-sub">Personal Projects</h4>
+    <h5 className="portfolio__heading portfolio__heading-sub--desc">A few Examples</h5>
 
     <div className="row">
     <div className="col-1-of-3">
@@ -220,6 +221,15 @@ const Portfolio = (props) => (
         name="Bamazon" 
         img="url(/assets/images/bamazon-demo.gif)"
         github="https://github.com/SashaPatsel/bamazon-app"
+        /> 
+      </div>
+
+           <div className="col-1-of-3">
+    <Project 
+        name="HQ" 
+        img="url(/assets/images/hq.png)"
+        github="https://github.com/SashaPatsel/hq-extension"
+        deployed="https://sashapatsel.github.io/hq-extension/"
         /> 
       </div>
 

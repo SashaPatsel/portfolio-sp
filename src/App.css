@@ -369,7 +369,8 @@ body {
 .project {
   height: 30rem;
   width: 30rem;
-  background-size: cover;
+  background-size: 100% 100%;
+  margin: auto;
   border-radius: 1rem;
   border: 2px #ED9415 solid;
   box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.4);
@@ -648,3 +649,7 @@ body {
     transform: translateX(-50%); }
     .portfolio__heading-sub {
       font-size: 5rem; }
+      .portfolio__heading-sub--desc {
+        font-size: 3.5rem;
+        font-style: italic;
+        display: block; }
