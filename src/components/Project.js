@@ -12,12 +12,12 @@ const Project = props => (
           <img className="card__details--icon-img " src="https://png.icons8.com/metro/1600/github.png" alt="codepenlink" />
         </a>
       </div>
-
-      <div className="card__details--icon-hr project__button">
+    {props.deployed ?  <div className="card__details--icon-hr project__button">
         <a href={props.deployed} target="_blank">
           <i className="fas fa-globe"></i>
         </a>
-      </div>
+      </div> : null}
+     
     
   </div>
 )

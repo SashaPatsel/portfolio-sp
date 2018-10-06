@@ -207,6 +207,26 @@ const Portfolio = (props) => (
     <h4 className="portfolio__heading portfolio__heading-sub">Personal Projects</h4>
 
     <div className="row">
+    <div className="col-1-of-3">
+    <Project 
+        name="Pacifica.com" 
+        img="url(/assets/images/pacifica.png)"
+        github="https://github.com/SashaPatsel/pacifica.com" deployed="https://sashapatsel.github.io/pacifica.com/" />
+      </div>
+  
+
+     <div className="col-1-of-3">
+    <Project 
+        name="Bamazon" 
+        img="url(/assets/images/bamazon-demo.gif)"
+        github="https://github.com/SashaPatsel/bamazon-app"
+        /> 
+      </div>
+
+
+    </div>
+
+    <div className="row">
 
       <div className="col-1-of-3">
         <Project 
@@ -232,7 +252,6 @@ const Portfolio = (props) => (
 
 
     </div>
-
 
 
 
