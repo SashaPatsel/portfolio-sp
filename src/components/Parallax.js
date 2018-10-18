@@ -1,7 +1,7 @@
 import React from "react";
 
 const parallax = {
-  backgroundImage: 'linear-gradient(),url("assets/images/beach.jpeg")',
+  backgroundImage: 'linear-gradient(to right bottom,rgba(84,27,161, 1), rgba(237,148,21, 1)),url("assets/images/beach.jpeg")',
   position: 'fixed',
   height: '100vh',
   width: '100%',
@@ -13,7 +13,7 @@ const parallax = {
 }
 
 const Parallax = (props) => (
-  <div className="parallax"></div>
+  <div style={parallax}></div>
 )
 
 export default Parallax

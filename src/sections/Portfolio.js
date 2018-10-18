@@ -208,29 +208,30 @@ const Portfolio = (props) => (
     <h5 className="portfolio__heading portfolio__heading-sub--desc">A few Examples</h5>
 
     <div className="row">
-    <div className="col-1-of-3">
-    <Project 
-        name="Pacifica.com" 
-        img="url(/assets/images/pacifica.png)"
-        github="https://github.com/SashaPatsel/pacifica.com" deployed="https://sashapatsel.github.io/pacifica.com/" />
-      </div>
-  
-
-     <div className="col-1-of-3">
-    <Project 
-        name="Bamazon" 
-        img="url(/assets/images/bamazon-demo.gif)"
-        github="https://github.com/SashaPatsel/bamazon-app"
-        /> 
+      <div className="col-1-of-3">
+        <Project
+          name="Pacifica.com"
+          img="url(assets/images/pacifica.png)"
+          github="https://github.com/SashaPatsel/pacifica.com" deployed="https://sashapatsel.github.io/pacifica.com/" />
       </div>
 
-           <div className="col-1-of-3">
-    <Project 
-        name="HQ" 
-        img="url(/assets/images/hq.png)"
-        github="https://github.com/SashaPatsel/hq-extension"
-        deployed="https://sashapatsel.github.io/hq-extension/"
-        /> 
+
+      <div className="col-1-of-3">
+        <Project
+          name="The News Room"
+          img="url(assets/images/the-news-room.png)"
+          github="https://github.com/SashaPatsel/all-the-news"
+          deployed="https://the-news-room-sp.herokuapp.com/"
+        />
+      </div>
+
+      <div className="col-1-of-3">
+        <Project
+          name="HQ"
+          img="url(assets/images/hq.png)"
+          github="https://github.com/SashaPatsel/hq-extension"
+          deployed="https://sashapatsel.github.io/hq-extension/"
+        />
       </div>
 
 
@@ -239,34 +240,41 @@ const Portfolio = (props) => (
     <div className="row">
 
       <div className="col-1-of-3">
-        <Project 
-        name="Hangman" 
-        img="url(/assets/images/hangman.png)"
-        github="https://github.com/SashaPatsel/Hangman-Game" deployed="https://sashapatsel.github.io/Hangman-Game/" />
-      </div>
-
-         <div className="col-1-of-3">
-        <Project 
-        name="Super Smash Bros" 
-        img="url(/assets/images/super-smash.png)"
-        github="https://github.com/SashaPatsel/super-smash-rpg" deployed="https://sashapatsel.github.io/super-smash-rpg/" />
-      </div>
-
-         <div className="col-1-of-3">
         <Project
-         name="Pretty-Much-Netflix"
-         img="url(/assets/images/netflix.png)"
-         github="https://github.com/SashaPatsel/pretty-much-netflix" deployed="https://sashapatsel.github.io/pretty-much-netflix/" />
+          name="Hangman"
+          img="url(assets/images/hangman.png)"
+          github="https://github.com/SashaPatsel/Hangman-Game" deployed="https://sashapatsel.github.io/Hangman-Game/" />
+      </div>
+
+      <div className="col-1-of-3">
+        <Project
+          name="Super Smash Bros"
+          img="url(assets/images/super-smash.png)"
+          github="https://github.com/SashaPatsel/super-smash-rpg" deployed="https://sashapatsel.github.io/super-smash-rpg/" />
+      </div>
+
+      <div className="col-1-of-3">
+        <Project
+          name="Pretty-Much-Netflix"
+          img="url(assets/images/netflix.png)"
+          github="https://github.com/SashaPatsel/pretty-much-netflix" deployed="https://sashapatsel.github.io/pretty-much-netflix/" />
       </div>
 
 
 
     </div>
+    <div className="row">
 
+      <div className="col-1-of-3">
 
+        <Project
+          name="Bamazon"
+          img="url(assets/images/bamazon-demo.gif)"
+          github="https://github.com/SashaPatsel/bamazon-app"
+        />
 
-
-
+      </div>
+    </div>
 
   </section>
 )
