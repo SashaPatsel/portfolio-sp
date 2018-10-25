@@ -1,26 +1,23 @@
 .project {
-  height: 30rem;
-  width: 30rem;
 
-  background-size: 100% 100%;
-  margin: auto;
+  width: 40%;
 
-  border-radius: 1rem;
-  border: 2px $color-secondary solid;
-  box-shadow: 0 2rem 2rem rgba(0,0,0,.4);
-  position: relative;
-  transition: .2s;
+  &__row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%
+  }
+
 
   &:hover &__links {
     background-color: rgba($color-primary, .6);
   }
 
-
   &__heading {
-    background-color: rgba($color-primary, .9);
+    background-color: rgba($color-primary, 1);
     padding: 1rem;
-    position: absolute;
-    width: 100%;
+
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
 
@@ -31,6 +28,12 @@
       letter-spacing: 4px;
     }
   }
+
+  &__img {
+    width: 100%;
+    margin: 0;
+  }
+
   &__links {
     position: absolute;
     bottom: 0;
@@ -38,7 +41,4 @@
     background-color: rgba($color-primary, .6);
     height: 25%;
   }
-
- 
-
 }
