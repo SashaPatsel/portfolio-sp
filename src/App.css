@@ -367,14 +367,15 @@ body {
   z-index: -2; }
 
 .project {
-  width: 40%; }
+  width: 40%;
+  position: relative; }
   .project__row {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%; }
-  .project:hover .project__links {
-    background-color: rgba(84, 27, 161, 0.6); }
+  .project:hover .project__about {
+    visibility: visible; }
   .project__heading {
     background-color: #541ba1;
     padding: 1rem;
@@ -387,13 +388,28 @@ body {
       letter-spacing: 4px; }
   .project__img {
     width: 100%;
-    margin: 0; }
+    margin-bottom: -1rem; }
+  .project__about {
+    visibility: hidden;
+    position: absolute;
+    height: 101.5%;
+    width: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.9); }
   .project__links {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: rgba(84, 27, 161, 0.6);
-    height: 25%; }
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+  .project__icon {
+    height: 5rem;
+    width: 5rem;
+    fill: white; }
+    .project__icon:hover {
+      transform: scale(1.2); }
 
 .about {
   padding: 15rem 0;

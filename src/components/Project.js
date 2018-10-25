@@ -6,19 +6,26 @@ const Project = props => (
       <h3 className="project__heading--title">{props.name}</h3>
     </div>
     <img className="project__img" src={props.img}/>
-    {/* <div className="project__links"></div>
-      <div className="card__details--icon-gh project__button">
+    <div className="project__about">
+    <div className="project__links">
+      <div className=" project__button">
         <a href={props.github} target="_blank">
-          <img className="card__details--icon-img " src="https://png.icons8.com/metro/1600/github.png" alt="codepenlink" />
+        <svg class="project__icon">
+          <use xlinkHref="assets/images/sprite.svg#icon-github">
+          </use>
+        </svg>
         </a>
       </div>
-    {props.deployed ?  <div className="card__details--icon-hr project__button">
+    {props.deployed ?  <div className="project__button">
         <a href={props.deployed} target="_blank">
-          <i className="fas fa-globe"></i>
+        <svg class="project__icon">
+          <use xlinkHref="assets/images/sprite.svg#icon-sphere">
+          </use>
+        </svg>
         </a>
-      </div> : null} */}
-     
-    
+      </div> : null}
+      </div>
+    </div>
   </div>
 )
 
