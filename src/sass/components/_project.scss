@@ -27,6 +27,17 @@
       color: $color-secondary;
       letter-spacing: 4px;
     }
+
+    &--secondary {
+      margin-top: 1rem;
+
+      &--title {
+        font-size: 2rem;
+        text-align: center;
+        color: white;
+        letter-spacing: 4px;
+      }
+    }
   }
 
   &__img {
@@ -44,6 +55,16 @@
     background-color: rgba(black, .9);
   }
 
+  &__description {
+    font-size: 1.4rem;
+    color: white;
+    margin: auto;
+    width: 80%;
+    padding: 1rem;
+    margin-top: 1rem;
+    line-height: 2.7;
+  }
+
   &__links {
     
     position: absolute;
@@ -54,9 +75,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-
-
-   
   }
 
   &__icon {

@@ -5,25 +5,35 @@ const Project = props => (
     <div className="project__heading">
       <h3 className="project__heading--title">{props.name}</h3>
     </div>
-    <img className="project__img" src={props.img}/>
+    <img className="project__img" src={props.img} />
     <div className="project__about">
-    <div className="project__links">
-      <div className=" project__button">
-        <a href={props.github} target="_blank">
-        <svg class="project__icon">
-          <use xlinkHref="assets/images/sprite.svg#icon-github">
-          </use>
-        </svg>
-        </a>
-      </div>
-    {props.deployed ?  <div className="project__button">
-        <a href={props.deployed} target="_blank">
-        <svg class="project__icon">
-          <use xlinkHref="assets/images/sprite.svg#icon-sphere">
-          </use>
-        </svg>
-        </a>
-      </div> : null}
+
+    <div className="project__heading--secondary">
+      <h3 className="project__heading--secondary--title">{props.name}</h3>
+    </div>
+
+
+  <div className="project__description">
+        <p>{props.description}</p>
+  </div>
+
+      <div className="project__links">
+        <div className=" project__button">
+          <a href={props.github} target="_blank">
+            <svg class="project__icon">
+              <use xlinkHref="assets/images/sprite.svg#icon-github">
+              </use>
+            </svg>
+          </a>
+        </div>
+        {props.deployed ? <div className="project__button">
+          <a href={props.deployed} target="_blank">
+            <svg class="project__icon">
+              <use xlinkHref="assets/images/sprite.svg#icon-sphere">
+              </use>
+            </svg>
+          </a>
+        </div> : null}
       </div>
     </div>
   </div>

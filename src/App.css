@@ -386,6 +386,13 @@ body {
       text-align: center;
       color: #ED9415;
       letter-spacing: 4px; }
+    .project__heading--secondary {
+      margin-top: 1rem; }
+      .project__heading--secondary--title {
+        font-size: 2rem;
+        text-align: center;
+        color: white;
+        letter-spacing: 4px; }
   .project__img {
     width: 100%;
     margin-bottom: -1rem; }
@@ -396,6 +403,14 @@ body {
     width: 100%;
     top: 0;
     background-color: rgba(0, 0, 0, 0.9); }
+  .project__description {
+    font-size: 1.4rem;
+    color: white;
+    margin: auto;
+    width: 80%;
+    padding: 1rem;
+    margin-top: 1rem;
+    line-height: 2.7; }
   .project__links {
     position: absolute;
     bottom: 0;

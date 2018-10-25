@@ -212,6 +212,7 @@ const Portfolio = (props) => (
         <Project
           name="Pacifica.com"
           img="assets/images/pacifica.png"
+          description="Pacifica.com is a template for a brochure-type website with a modern look. It features several advanced CSS techniques that bring the page to life."
           github="https://github.com/SashaPatsel/pacifica.com" deployed="https://sashapatsel.github.io/pacifica.com/" />
 
 
@@ -219,6 +220,7 @@ const Portfolio = (props) => (
         <Project
           name="The News Room"
           img="assets/images/the-news-room.png"
+          description="The News Room is your one-stop-shop to get news from every source. Instead of scouring the internet or looking through your feed on facebook, The News Room keeps news from every news source in one place!"
           github="https://github.com/SashaPatsel/all-the-news"
           deployed="https://the-news-room-sp.herokuapp.com/"
         />
@@ -231,6 +233,7 @@ const Portfolio = (props) => (
         <Project
           name="Book.me"
           img="assets/images/bookme.png"
+          description="Book.me is a template for a hotel booking site's main interface. With a sleek, modern look, it takes advantage of some of the newest and most useful features in CSS."
           github="https://github.com/SashaPatsel/book.me"
           deployed="https://sashapatsel.github.io/book.me/"
         />
@@ -238,6 +241,7 @@ const Portfolio = (props) => (
         <Project
           name="HQ"
           img="assets/images/hq.png"
+          description="HQ is a user homepage. Inspired by the Chrome extension Momentum, HQ offers users several useful features to unique users. HQ fetures secure authentication, live news, a personal journal, and much more!"
           github="https://github.com/SashaPatsel/hq-extension"
           deployed="https://sashapatsel.github.io/hq-extension/"
         />
@@ -252,11 +256,13 @@ const Portfolio = (props) => (
         <Project
           name="Super Smash Bros"
           img="assets/images/super-smash.png"
+          description="This game is one of my first ever projects! Super Smash Bros is an RPG battle game. Pick a character and then choose your opponents wisely as you make it through the gauntlet of the melee."
           github="https://github.com/SashaPatsel/super-smash-rpg" deployed="https://sashapatsel.github.io/super-smash-rpg/" />
 
         <Project
           name="Hangman"
           img="assets/images/hangman.png"
+          description="Hangman is my first ever project with client-side javascript. Test your NBA hostory knowledge as you guess names one by one."
           github="https://github.com/SashaPatsel/Hangman-Game" deployed="https://sashapatsel.github.io/Hangman-Game/" />
 
 
@@ -271,6 +277,7 @@ const Portfolio = (props) => (
 
         <Project
           name="Bamazon"
+          description="Bamazon is a shopping simulator powered by a MySQL database and Node.js. It is a CLI app, so please refer to the github page for instructions to use it."
           img="assets/images/bamazon-demo.gif"
           github="https://github.com/SashaPatsel/bamazon-app"
         />
@@ -279,6 +286,7 @@ const Portfolio = (props) => (
         <Project
           name="Pretty-Much-Netflix"
           img="assets/images/netflix.png"
+          description="Pretty-Much-Netflix uses the Gify API to provide any gif a user searches for. The theme of this application is TV shows, but feel free to search for any gif of your choice!"
           github="https://github.com/SashaPatsel/pretty-much-netflix" deployed="https://sashapatsel.github.io/pretty-much-netflix/" />
 
       </div>
