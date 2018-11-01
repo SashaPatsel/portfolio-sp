@@ -130,22 +130,22 @@ const Portfolio = (props) => (
         <li>
           <a target="_blank" href="https://github.com/SashaPatsel/coding-drills/tree/master/ajax/yelp">
             An original yelp search engine
-  </a>
+          </a>
         </li>
         <li>
           <a target="_blank" href="https://github.com/SashaPatsel/coding-drills/tree/master/node/zombie-game/01">
             A command line zombie game
-  </a>
+          </a>
         </li>
         <li>
           <a target="_blank" href="https://github.com/SashaPatsel/coding-drills/tree/master/MySQL">
             An interactive TV show database
-  </a>
+          </a>
         </li>
         <li>
           <a target="_blank" href="https://github.com/SashaPatsel/coding-drills">
             and many more...
-  </a>
+          </a>
         </li>
       </ul>
 
@@ -154,7 +154,7 @@ const Portfolio = (props) => (
 
       <h4 className="jumbotron--heading">Student Projects</h4>
       <h5 className="jumbotron--heading-sub">Examples of projects students are guided through in these code drills.</h5>
-
+    
       <div className="col-1-of-2">
         <Card
           backgroundImg={cards["11"]}
@@ -207,7 +207,7 @@ const Portfolio = (props) => (
     <h4 className="portfolio__heading portfolio__heading-sub">Personal Projects</h4>
     <h5 className="portfolio__heading portfolio__heading-sub--desc">A few Examples</h5>
 
-    <div className="row">
+
       <div className="project__row">
         <Project
           name="Pacifica.com"
@@ -225,10 +225,10 @@ const Portfolio = (props) => (
           deployed="https://the-news-room-sp.herokuapp.com/"
         />
       </div>
-    </div>
 
 
-    <div className="row">
+
+
       <div className="project__row">
         <Project
           name="Book.me"
@@ -249,9 +249,9 @@ const Portfolio = (props) => (
 
 
       </div>
-    </div>
 
-    <div className="row">
+
+
       <div className="project__row">
         <Project
           name="Super Smash Bros"
@@ -267,12 +267,12 @@ const Portfolio = (props) => (
 
 
       </div>
-    </div>
 
 
 
 
-    <div className="row">
+
+  
       <div className="project__row">
 
         <Project
@@ -290,7 +290,7 @@ const Portfolio = (props) => (
           github="https://github.com/SashaPatsel/pretty-much-netflix" deployed="https://sashapatsel.github.io/pretty-much-netflix/" />
 
       </div>
-    </div>
+
 
   </section>
 )

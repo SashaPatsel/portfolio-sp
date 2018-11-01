@@ -3,11 +3,23 @@
   width: 40%;
   position: relative;
 
+  @include responsive(t-port) {
+    width: 80%;
+    margin-bottom: 4rem;
+  }
+ 
+
   &__row {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%
+    width: 100%;
+    margin-bottom: 5rem;
+
+    @include responsive(t-port) {
+      flex-direction: column;
+      justify-content: space-between;
+    }
   }
 
   &:hover &__about {
@@ -63,6 +75,14 @@
     padding: 1rem;
     margin-top: 1rem;
     line-height: 2.7;
+
+    @include responsive(t-port) {
+      font-size: 2.6rem;
+    }
+
+    @include responsive(phone) {
+      font-size: 1.6rem;
+    }
   }
 
   &__links {

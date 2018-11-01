@@ -369,11 +369,20 @@ body {
 .project {
   width: 40%;
   position: relative; }
+  @media (max-width: 56.25em) {
+    .project {
+      width: 80%;
+      margin-bottom: 4rem; } }
   .project__row {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%; }
+    width: 100%;
+    margin-bottom: 5rem; }
+    @media (max-width: 56.25em) {
+      .project__row {
+        flex-direction: column;
+        justify-content: space-between; } }
   .project:hover .project__about {
     visibility: visible; }
   .project__heading {
@@ -411,6 +420,12 @@ body {
     padding: 1rem;
     margin-top: 1rem;
     line-height: 2.7; }
+    @media (max-width: 56.25em) {
+      .project__description {
+        font-size: 2.6rem; } }
+    @media (max-width: 37.5em) {
+      .project__description {
+        font-size: 1.6rem; } }
   .project__links {
     position: absolute;
     bottom: 0;
