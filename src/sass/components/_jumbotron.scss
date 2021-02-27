@@ -1,6 +1,8 @@
 .jumbotron {
-  background-image: linear-gradient(to left, rgba($color-secondary, .8), rgba($color-primary, .8));
+  background-image: linear-gradient(to left, rgba($color-secondary, .95), rgba($color-primary, .95));
   border-radius: 1rem;
+  width: 80%;
+  margin: auto;
 
   &--heading {
     text-align: center;
@@ -21,9 +23,6 @@
   }
 
   &__stack {
-
-   
- 
 
     &-container {
       width: 70%;

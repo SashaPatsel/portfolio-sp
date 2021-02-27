@@ -11,10 +11,6 @@ import Parallax from "../components/Parallax"
 
 
 
-
-
-
-
 class Main extends Component {
   render() {
     return (

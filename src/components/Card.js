@@ -13,8 +13,6 @@ const Card = (props, children) => (
           <div className="card__about">
             <h5 className="card__about--name">{props.heading}</h5>
 
-            
-
             <p className="card__about--desc">{props.desc1}</p>
             <p className="card__about--desc">{props.desc2}</p>
             <p className="card__about--desc">{props.desc3}</p>
